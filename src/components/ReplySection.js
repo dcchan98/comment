@@ -3,12 +3,12 @@ import React, { Component } from "react";
 export default class Comment extends Component {
 	render() {
 		return (
-      <form class='ui reply form'>
-      <div class='field'>
+      <form className='ui reply form'>
+      <div className='field'>
         <textarea></textarea>
       </div>
-      <div class='ui blue labeled submit icon button'>
-        <i class='icon edit'></i> Add Reply
+      <div className='ui blue labeled submit icon button'>
+        <i className='icon edit'></i> Add Reply
       </div>
     </form>
 		);

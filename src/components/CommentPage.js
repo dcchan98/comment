@@ -8,8 +8,8 @@ import ApprovalCard from "./ApprovalCard.js";
 export default class CommentPage extends Component {
 	render() {
 		return (
-			<div class='ui comments'>
-				<h3 class='ui dividing header'>Comments</h3>
+			<div className='ui comments'>
+				<h3 className='ui dividing header'>Comments</h3>
 				<Comment
 					profileImage={faker.image.image()}
 					name='Sean Chan '

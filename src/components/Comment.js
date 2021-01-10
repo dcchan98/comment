@@ -4,8 +4,8 @@ import React, { Component } from "react";
 export default class Comment extends Component {
 	render() {
 		return (
-      <div class='comment'>
-					<a class='avatar'>
+      <div className='comment'>
+					<a className='avatar'>
 						<img src={this.props.profileImage} />
 					</a>
 					<div className='content'>

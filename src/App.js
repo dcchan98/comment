@@ -1,5 +1,4 @@
 import CommentPage from "./components/CommentPage"
-import ApprovalCard from "./components/ApprovalCard"
 
 function App() {
   return (
