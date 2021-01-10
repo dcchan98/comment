@@ -1,9 +1,10 @@
 import CommentPage from "./components/CommentPage"
+import ApprovalCard from "./components/ApprovalCard"
 
 function App() {
   return (
     <div className="App">
-     <CommentPage name = "Sean"/>
+     <CommentPage />
     </div>
   );
 }

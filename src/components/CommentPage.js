@@ -3,6 +3,7 @@ import faker from "faker";
 import React, { Component } from "react";
 import Comment from "./Comment.js";
 import ReplySection from "./ReplySection.js";
+import ApprovalCard from "./ApprovalCard.js";
 
 export default class CommentPage extends Component {
 	render() {
@@ -21,6 +22,16 @@ export default class CommentPage extends Component {
 					commentText='How Cool is that'
 					date='Yesterday'
 				/>
+
+				<ApprovalCard>
+					<Comment
+						profileImage={faker.image.image()}
+						name='Ding Chao'
+						commentText='How Cool is that'
+						date='Yesterday'
+					/>
+				</ApprovalCard>
+
 				<ReplySection />
 			</div>
 		);
