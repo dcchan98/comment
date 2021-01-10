@@ -1,11 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/** @format */
 
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import App from "./App";
 
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root')
+
+window.navigator.geolocation.getCurrentPosition(
+  (msg) => {
+    console.log(msg)
+    console.log(msg.coords)
+    console.log(msg.coords.latitude) 
+    console.log(msg.coords.longitude) 
+  }
+  
+
+  ,
+	(err) => console.log(err)
 );
 
+ReactDOM.render(<App />, document.getElementById("root"));
