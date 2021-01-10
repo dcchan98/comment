@@ -1,4 +1,3 @@
-import { Component } from "react";
 import CommentPage from "./components/CommentPage"
 
 function App() {

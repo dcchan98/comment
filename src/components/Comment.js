@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import faker from "faker";
+
 
 export default class Comment extends Component {
 	render() {
 		return (
       <div class='comment'>
 					<a class='avatar'>
-						<img src={faker.image.image()} />
+						<img src={this.props.profileImage} />
 					</a>
-					<div class='content'>
-						<a class='author'>Elliot Fu</a>
-						<div class='metadata'>
-							<span class='date'>Yesterday at 12:30AM</span>
+					<div className='content'>
+						<a className='author'>{this.props.name}</a>
+						<div className='metadata'>
+							<span className='date'>{this.props.date}</span>
 						</div>
-						<div class='text'>
-							<p>This has been very useful for my research. Thanks as well!</p>
+						<div className='text'>
+							<p>{this.props.commentText}</p>
 						</div>
 
             {/* ####### Reply Section Not Used Yet */}
