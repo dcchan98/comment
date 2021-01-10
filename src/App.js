@@ -1,10 +1,10 @@
 import { Component } from "react";
-import Comment from "./components/Comment"
+import CommentPage from "./components/CommentPage"
 
 function App() {
   return (
     <div className="App">
-     <Comment name = "Sean"/>
+     <CommentPage name = "Sean"/>
     </div>
   );
 }
