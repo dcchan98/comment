@@ -8,7 +8,8 @@ export default class ApprovalCard extends Component {
 			<div>
 				<div class='ui cards'>
 					<div class='card'>
-          
+						<div>{this.props.children}</div>
+
 						<div class='extra content'>
 							<div class='ui two buttons'>
 								<div class='ui basic green button'>Approve</div>
