@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import faker from "faker";
 
 export default class Comment extends Component {
 	render() {
 		return (
       <div class='comment'>
 					<a class='avatar'>
-						<img src='/images/avatar/small/elliot.jpg' />
+						<img src={faker.image.image()} />
 					</a>
 					<div class='content'>
 						<a class='author'>Elliot Fu</a>
