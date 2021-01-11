@@ -14,9 +14,7 @@ window.navigator.geolocation.getCurrentPosition(
     console.log(msg.coords.latitude) 
     console.log(msg.coords.longitude) 
   }
-  
-
-  ,
+   ,
 	(err) => console.log(err)
 );
 
